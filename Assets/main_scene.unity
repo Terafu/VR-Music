@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -1181,6 +1180,26 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4402047158386862, guid: 6f94a917de2bd1c4299689407580d6d4, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.063606
@@ -1218,6 +1237,27 @@ Prefab:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: c8dde1c15e56c724593302dc74dd2fea, type: 2}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 5f6351dfa1d5dbe4698d8ed07beb9d67,
+        type: 3}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_DirectAudioVolumes.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_EnabledAudioTracks.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328840420925901626, guid: 6f94a917de2bd1c4299689407580d6d4,
+        type: 2}
+      propertyPath: m_ControlledAudioTrackCount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f94a917de2bd1c4299689407580d6d4, type: 2}
   m_IsPrefabParent: 0
