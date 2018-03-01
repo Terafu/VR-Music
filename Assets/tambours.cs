@@ -15,6 +15,6 @@ public class tambours : MonoBehaviour {
     void Update()
     {
         currentTime += Time.deltaTime;
-        //Debug.Log(AudioSettings.dspTime);
+        //Debug.Log(8 - currentTime % 8);
     }
 }
